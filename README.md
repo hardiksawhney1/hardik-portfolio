@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hardik Sawhney — Software Engineer II Portfolio & Resume
 
-## Getting Started
+A modern, high-performance personal portfolio and interactive 2-column technical resume built for **Hardik Sawhney**, Software Engineer II at **GeekyAnts**.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16.4-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css)
+
+---
+
+## 🌟 Features
+
+- **Interactive Portfolio (`/`):**
+  - **Hero:** Live status badge, positioning line, verifiable metrics, and an interactive TypeScript architecture preview card.
+  - **Engineering Benchmarks:** 2+ years experience, ~95% first-time PR approval, 40% dashboard load time speedup, 99.9% uptime, 9.88/10 CGPA, Geekathon AI winner.
+  - **About & Core Strengths:** 7 execution pillars (0-to-1 frontend ownership, design systems, payments/auth, data-intensive UIs, Core Web Vitals, AI-assisted SDLC).
+  - **Career Experience:** Software Engineer II timeline at GeekyAnts.
+  - **Domain Case Studies:** 5 production case studies with domain filtering and deep-dive modals.
+  - **Technical Skills:** Categorized tag clouds with live search filtering.
+  - **How I Work:** 4 core execution pillars + engineering ethos.
+  - **Contact Hub:** Direct 1-click email copy, active LinkedIn & GitHub links, phone dialer, and contact form.
+
+- **Dedicated 2-Column Technical Resume (`/resume`):**
+  - Pixel-perfect reproduction of Hardik's official 2-column resume.
+  - **Print / Save PDF:** Native browser print layout optimized for A4 portrait with background color preservation (`print-color-adjust: exact`).
+  - **Download PDF:** 1-click download of the official resume PDF.
+
+- **Architecture:**
+  - 100% DRY: Single Source of Truth in `data/portfolio-data.ts`.
+  - Zero mock data or placeholders.
+  - Next.js 16 with Turbopack & Tailwind CSS v4.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone & Install
+
+```bash
+git clone https://github.com/hardiksawhney1/work-portfolio.git
+cd work-portfolio
+npm install
+```
+
+### 2. Run Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) for the portfolio and [http://localhost:3000/resume](http://localhost:3000/resume) for the technical resume.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Deploy to Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The easiest way to deploy is through the [Vercel Dashboard](https://vercel.com/new):
+1. Import this repository (`hardiksawhney1/work-portfolio`).
+2. Framework Preset will auto-detect **Next.js**.
+3. Click **Deploy**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 👤 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Hardik Sawhney**
+- **Role:** Software Engineer II @ GeekyAnts
+- **Location:** Bangalore, India
+- **Email:** hardik.ynr@gmail.com
+- **LinkedIn:** [linkedin.com/in/hardik--sawhney](https://www.linkedin.com/in/hardik--sawhney)
+- **GitHub:** [github.com/hardiksawhney1](https://github.com/hardiksawhney1)
+- **Phone:** +91 98969 87025
