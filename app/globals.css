@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #244974;
+  --color-navy-dark: #1A375A;
+  --color-navy-deep: #0F2238;
+  --color-sky: #96C4F0;
+  --color-sky-light: #EBF4FC;
+  --color-sky-soft: #D6E8FA;
+  --color-ink: #262C34;
+  --color-ink-light: #3D444F;
+  --color-muted: #69707A;
+  --color-muted-light: #94A3B8;
+  --color-surface: #F8FAFC;
+  --color-surface-card: #FFFFFF;
+  --color-surface-border: #E2E8F0;
+}
+
+:root {
+  --navy: #244974;
+  --navy-dark: #1A375A;
+  --navy-deep: #0F2238;
+  --sky: #96C4F0;
+  --sky-light: #EBF4FC;
+  --ink: #262C34;
+  --muted: #69707A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #262C34;
+  background-color: #FAFCFE;
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Subtle grid background pattern */
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(36, 73, 116, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(36, 73, 116, 0.04) 1px, transparent 1px);
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(150, 196, 240, 0.22) 0%, rgba(36, 73, 116, 0.05) 50%, transparent 80%);
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-page {
+    box-shadow: none !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border: none !important;
+    border-radius: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  @page {
+    margin: 0;
+    size: A4 portrait;
+  }
+}
