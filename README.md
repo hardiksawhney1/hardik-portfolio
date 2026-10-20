@@ -38,8 +38,8 @@ A modern, high-performance personal portfolio and interactive 2-column technical
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/hardiksawhney1/work-portfolio.git
-cd work-portfolio
+git clone https://github.com/hardiksawhney1/hardik-portfolio.git
+cd hardik-portfolio
 npm install
 ```
 
@@ -63,7 +63,7 @@ npm start
 ## 🌐 Deploy to Vercel
 
 The easiest way to deploy is through the [Vercel Dashboard](https://vercel.com/new):
-1. Import this repository (`hardiksawhney1/work-portfolio`).
+1. Import this repository (`hardiksawhney1/hardik-portfolio`).
 2. Framework Preset will auto-detect **Next.js**.
 3. Click **Deploy**.
 
